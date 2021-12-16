@@ -17,5 +17,7 @@ class Beer{
 	std::string getName();
 	
 	Container getContainer();
+
+	void setName(std::string name);
 		
 };

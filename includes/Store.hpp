@@ -10,5 +10,6 @@ class Store{
 		Store(Beer *b);
 		Store(const Store& s);
 		Beer* getBeer();
-		Store& operator=(const Store& s);   
+		Store& operator=(const Store& s);
+		Store* CreateStore(Beer *br);
 };

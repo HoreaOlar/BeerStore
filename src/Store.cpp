@@ -19,3 +19,7 @@ Store& Store::operator=(const Store& s){
 Store::Store(const Store& s){
 	this->b = s.b;
 }
+
+Store* CreateStore(Beer *br){
+	return new Store(br);
+}
